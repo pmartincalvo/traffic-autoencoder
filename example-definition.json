@@ -1,0 +1,23 @@
+{
+    "model": {
+        "input_shape": 1968,
+        "layers": [1000, 500],
+        "encoded_size": 50,
+        "activation": "relu",
+        "final_activation": "linear",
+        "loss_function": "mean_squared_error",
+        "optimizer": "adam",
+        "learning_rate": 0.001
+    },
+    "metrics": ["mean_absolute_percentage_error"],
+    "fit_parameters": {"batch_size": 128, "epochs": 50},
+    "data_preprocessing": {
+        "earliest": "2019-06-01 00:00:00",
+        "latest": "2020-02-28 23:59:59",
+        "split_datetime": "2020-02-28 16:59:59",
+        "cv_folds": 0,
+        "test_size": 0,
+        "hours_backward": 6,
+        "hours_forward": 6
+    }
+}
