@@ -51,7 +51,7 @@ setup(
         "tensorflow-gpu==2.1.0",
         "termcolor==1.1.0",
         "threadpoolctl==2.1.0",
-        "urllib3==1.25.9",
+        "urllib3==1.26.5",
         "Werkzeug==1.0.1",
         "wrapt==1.12.1",
         "zipp==3.1.0",
