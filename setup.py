@@ -46,7 +46,7 @@ setup(
         "scipy==1.4.1",
         "six==1.15.0",
         "tensorboard==2.1.1",
-        "tensorflow==2.1.0",
+        "tensorflow==2.5.1",
         "tensorflow-estimator==2.1.0",
         "tensorflow-gpu==2.1.0",
         "termcolor==1.1.0",
