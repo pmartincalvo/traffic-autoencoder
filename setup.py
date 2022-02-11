@@ -32,7 +32,7 @@ setup(
         "opt-einsum==3.2.1",
         "pandas==1.0.4",
         "pkg-resources==0.0.0",
-        "protobuf==3.12.2",
+        "protobuf==3.15.0",
         "pyasn1==0.4.8",
         "pyasn1-modules==0.2.8",
         "pyparsing==2.4.7",
