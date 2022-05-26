@@ -48,7 +48,7 @@ setup(
         "tensorboard==2.1.1",
         "tensorflow==2.1.0",
         "tensorflow-estimator==2.1.0",
-        "tensorflow-gpu==2.1.0",
+        "tensorflow-gpu==2.7.2",
         "termcolor==1.1.0",
         "threadpoolctl==2.1.0",
         "urllib3==1.25.9",
